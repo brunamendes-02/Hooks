@@ -67,9 +67,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-What is the real difference between React Context and Redux? I found really greate materials here
-https://www.youtube.com/watch?v=pk4XwxdYUnY
-
+What is the real difference between React Context and Redux? I found really greate materials here\
+https://www.youtube.com/watch?v=pk4XwxdYUnY  \
 https://medium.com/@hnordt/redux-vs-react-context-87a7053c12df
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
