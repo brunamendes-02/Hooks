@@ -1,4 +1,4 @@
-import React, {useState, useRef} from "react";
+import {useState, useRef} from "react";
 
 export const UseRefPage = () => {
     const [message, setMessage] = useState('');
@@ -14,6 +14,7 @@ export const UseRefPage = () => {
                 onChange={(event) => setMessage(event.target.value)}
             />
             <button onClick={() => {
+                // console.log(inputRef.current.value);
                 inputRef.current.focus();
                 setMessage('');
             }}>

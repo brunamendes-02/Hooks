@@ -1,4 +1,4 @@
-import React, {useState, useCallback} from "react";
+import {useState, useCallback} from "react";
 
 export const UseCallbackPage = () => {
     const [name, setName] = useState('');
@@ -7,6 +7,7 @@ export const UseCallbackPage = () => {
     // function onNameChange(event) {
     //     setName(event.target.value)
     // }
+    
     const onNameChange = useCallback((event) => {setName(event.target.value)}, [])
 
     return (

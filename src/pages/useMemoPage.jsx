@@ -1,4 +1,4 @@
-import React, {useState, useMemo} from "react";
+import {useState, useMemo} from "react";
 
 export const UseMemoPage = () => {
     const [name, setName] = useState('');
@@ -6,7 +6,7 @@ export const UseMemoPage = () => {
 
     const passwordValidator = useMemo(() => {
         return <PasswordValidator password={password}/>
-    }, [password])
+    }, [password]);
     
     return (
         <>

@@ -1,12 +1,12 @@
-import React, {useState, useEffect} from "react";
+import {useState, useEffect} from "react";
 
 export const UseEffectPage = () => {
-    const [name, setName] = useState('User');
+    const [name, setName] = useState('');
     const [password, setPassword] = useState('');
-    
+
     useEffect(() => {
         console.log(name);
-    }, [name])
+    }, [name]);
     
     return (
         <>
